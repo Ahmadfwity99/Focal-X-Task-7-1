@@ -1,0 +1,31 @@
+.services-footer-card {
+    h2 {
+        color: #ffffff7f;
+        font-size: 50px;
+        letter-spacing: 2px;
+        padding: 15px;
+        transition: 0.3s;
+    }
+
+    h2:hover {
+        color: #fff;
+    }
+
+    h3 {
+        padding: 15px;
+        color: #ffffff7f;
+        font-family: "Rajdhani", sans-serif;
+        font-weight: 600;
+        transition: 0.3s;
+    }
+
+    h3:hover {
+        color: #fff;
+    }
+
+    p {
+        padding: 15px;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+}

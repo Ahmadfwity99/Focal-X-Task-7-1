@@ -1,0 +1,83 @@
+.test-card {
+    padding: 35px 15px;
+    border-radius: 20px;
+
+    .review-stars {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        padding: 15px;
+    }
+
+    p {
+        letter-spacing: 1px;
+        padding: 15px;
+        opacity: 0.8;
+    }
+
+    .test-card-footer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 15px;
+        padding-bottom: 0;
+
+        .user-name {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: "Rajdhani", sans-serif;
+            padding-bottom: 0;
+
+            h5 {
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+.test-white {
+    background-color: white;
+
+    p {
+        color: var(--main-color);
+    }
+
+    .test-card-footer {
+        .user-name {
+            p {
+                color: var(--main-color);
+            }
+        }
+
+        .semicolon {
+            color: gray;
+        }
+    }
+}
+
+.test-blue {
+    background-color: var(--main-color);
+
+    p {
+        color: #fff;
+    }
+
+    .test-card-footer {
+        .user-name {
+            p {
+                color: #fff;
+            }
+        }
+
+        .semicolon {
+            color: #fff;
+        }
+    }
+}
+
+.semicolon {
+    font-size: 50px;
+}

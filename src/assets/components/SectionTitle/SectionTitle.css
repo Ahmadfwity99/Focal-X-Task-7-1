@@ -1,0 +1,61 @@
+.section-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.title-center {
+    .titles {
+        align-items: center;
+    }
+}
+
+.title-left {
+    .titles {
+        align-items: self-start;
+    }
+}
+
+.blue,
+.white {
+    font-family: "Rajdhani", sans-serif;
+}
+
+.blue {
+    color: var(--main-color);
+}
+
+.white {
+    color: #fff;
+}
+
+.section-h2 {
+    font-weight: 900;
+    padding: 10px;
+}
+
+.title-arrows {
+    justify-content: space-around;
+    align-items: center;
+    font-size: 50px;
+    padding: 20px;
+
+    .arr {
+        padding: 5px;
+        transition: 0.3s;
+    }
+
+    .arr:hover {
+        color: var(--selected-color);
+        cursor: pointer;
+    }
+}

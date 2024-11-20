@@ -1,0 +1,148 @@
+.pricing-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .pricing-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            width: 35px;
+        }
+    }
+
+    .pricing-tab {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        .btn-group {
+            padding: 2px;
+            border-radius: 100px !important;
+            border: 1px solid gray !important;
+
+            .btn-check,
+            .btn-outline-primary {
+                border-radius: 100px !important;
+                padding: 10px 15px;
+                border: none !important;
+                transition: 0.3s !important;
+            }
+        }
+
+        img {
+            padding: 15px;
+            color: var(--main-color);
+        }
+
+        span {
+            color: var(--main-color);
+        }
+    }
+
+}
+
+.pricing-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.pricing-footer {
+    margin: 0 auto !important;
+    margin-top: 125px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    background-color: var(--main-color);
+    background-image: url(/public/ctaShape1_1.webp);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+
+    h2 {
+        color: #fff;
+    }
+
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff !important;
+        color: var(--selected-color) !important;
+        border-radius: 100px !important;
+        padding: 10px 40px !important;
+        transition: 0.3s;
+        text-wrap: nowrap !important;
+    }
+
+    button:hover {
+        background-color: var(--selected-color) !important;
+        color: #fff !important;
+    }
+}
+
+/* Media */
+
+@media (max-width:1200px) {
+    .pricing-footer {
+        width: 960px;
+        margin: 0 auto !important;
+        margin-top: 125PX;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .pricing-footer {
+        width: 794px;
+        margin: 0 auto !important;
+        margin-top: 125PX;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .pricing-footer {
+        width: 614px;
+        margin: 0 auto !important;
+        margin-top: 125PX;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .pricing-footer {
+        width: 460px;
+        margin: 0 auto !important;
+        margin-top: 125PX;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .pricing-footer {
+        width: 360px;
+        margin: 0 auto !important;
+        margin-top: 125PX;
+    }
+
+}
+
+@media (max-width: 350px) {
+
+    .pricing-footer {
+        width: 280px;
+        margin: 0 auto !important;
+        margin-top: 125PX !important;
+    }
+}

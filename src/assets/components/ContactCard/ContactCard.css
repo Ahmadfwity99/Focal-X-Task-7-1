@@ -1,0 +1,41 @@
+.contact-card-body {
+    border-radius: 20px !important;
+    padding: 0;
+}
+
+.contact-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contact-card-body .add,
+.contact-card-body .email,
+.contact-card-body .phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    width: 100%;
+}
+
+.contact-card-body .add,
+.contact-card-body .email {
+    border-bottom: 1px solid #fff;
+}
+
+.contact-card-body .info-icon {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    border: 1px dashed #fff;
+    color: #fff;
+}

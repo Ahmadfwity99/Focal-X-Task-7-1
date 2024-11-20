@@ -1,0 +1,40 @@
+.trens-card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 900;
+}
+
+.trens-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gold-star {
+    color: gold;
+}
+
+.title-star {
+    color: #01b47b;
+}
+
+.bordered {
+    border-bottom: 1px solid #ddd;
+}
+
+@media (min-width: 992px) {
+    .bordered {
+        border-bottom: none;
+        border-right: 1px solid #ddd;
+    }
+}

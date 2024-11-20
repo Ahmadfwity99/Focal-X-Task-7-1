@@ -1,0 +1,101 @@
+.pricing-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 20px;
+
+    .pricing-card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 25px;
+        padding: 15px;
+
+        img {
+            padding: 5px 35px;
+            padding-right: 10px;
+        }
+
+        .pricing-header-text {
+            color: #fff;
+            font-weight: bolder;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5px 35px;
+            padding-left: 10px;
+
+            h5 {
+                font-weight: bolder;
+            }
+
+            p {
+                span {
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+
+    button {
+        border-radius: 100px !important;
+        padding: 15px !important;
+        transition: 0.3s !important;
+        width: 80% !important;
+    }
+}
+
+.offer-list {
+    padding: 20px;
+
+}
+
+.pricing-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    padding: 0;
+
+    p {
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 30px;
+
+        .colored {
+            color: green;
+            font-size: 20px !important;
+        }
+
+        .colored-2 {
+            color: red;
+            font-size: 20px !important;
+        }
+    }
+
+}
+
+.color-1 {
+    background-color: var(--selected-color) !important;
+    color: #fff !important;
+}
+
+.color-2 {
+    background-color: var(--main-color) !important;
+}
+
+.pricing-card-btn {
+    color: var(--main-color) !important;
+    border: 1px solid var(--main-color) !important;
+}
+
+.pricing-card-btn:hover {
+    color: #fff !important;
+    background-color: var(--main-color) !important;
+}

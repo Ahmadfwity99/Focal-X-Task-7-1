@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    --main-color: #384bff;
+    --hov-color: #5162f8;
+    --selected-color: #18185E;
+    font-size: 16px;
+}
+
+.header-font {
+    font-family: "Rajdhani", sans-serif;
+}
+
+body {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+a

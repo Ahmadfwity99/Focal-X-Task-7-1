@@ -1,0 +1,66 @@
+.contact-form-body {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contact-form-body h2 {
+    font-family: "Rajdhani", sans-serif;
+    color: #333;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.contact-form-body p {
+    color: #708ebd;
+    padding: 20px;
+}
+
+.contact-form-body form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form-row label {
+    padding: 20px 0;
+}
+
+.form-row input {
+    padding: 10px 30px;
+}
+
+.text-aria {
+    width: 100%;
+    height: 40% !important;
+}
+
+.contact-button {
+    background-color: var(--main-color) !important;
+    border-radius: 100px !important;
+    color: #fff !important;
+    font-size: 18px;
+    min-width: 180px;
+    padding: 15px 15px !important;
+    font-weight: 500 !important;
+    text-wrap: nowrap !important;
+    transition: 0.3s linear;
+    margin: 0;
+}
+
+.contact-button:hover {
+    background-color: var(--hov-color) !important;
+}
